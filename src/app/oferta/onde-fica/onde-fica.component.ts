@@ -5,7 +5,8 @@ import { OfertasService } from '../../ofertas.service'
 @Component({
   selector: 'app-onde-fica',
   templateUrl: './onde-fica.component.html',
-  styleUrls: ['./onde-fica.component.css']
+  styleUrls: ['./onde-fica.component.css'],
+  providers: [OfertasService]
 })
 export class OndeFicaComponent implements OnInit {
 
